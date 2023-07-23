@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+.navbarurl{
+    list-style: none;
+    margin: 0.8% 10% 0 20%;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* first div box */
+#firstpara{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-image: url(./Assets/Images/Screenshot\ 2023-07-20\ 123917.jpg);
+ background-repeat: no-repeat;
+ background-size: 70%;
+ background-position-x: center;
+ background-position-y: 300px;
+ width: 100%;
+ height: 800px;
+}
+#firstparaiphone{
+    margin-top:100px ;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#firstparawonder{
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#firstparapara{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#buy1{
+    padding-right: 20px;
+}
+/* second div box */
+#secondpara{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    background-image: url(./Assets/Images/iphone-14.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: center;
+    background-position-y: 250px;
+    width: 100%;
+    height: 800px;
+   }
+   #secondparaiphone{
+    margin-top:100px ;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#secondparawonder{
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#secondparapara{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#buy2{
+    padding-right: 20px;
+}
+
